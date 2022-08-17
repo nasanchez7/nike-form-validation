@@ -1,6 +1,6 @@
 ### NikeForm
 
-- [NikeForm](https://nasanchez7.github.io/nike-form-validation/ "NikeForm") es un simple formulario inspirado en Nike que te permite iniciar sesion validando una "base de datos" (array de objetos), si el usuario y la contraseña coinciden puedes iniciar sesion, de lo contrario muestra un error.
+- [NikeForm](https://nasanchez7.github.io/nike-form-validation/ "NikeForm") es un simple formulario inspirado en Nike que te permite iniciar sesion validando una "base de datos" (array de objetos) o crear un nuevo usuario e iniciar sesion con el mediante localStorage.
 
 ## Lista de usuarios.
 
@@ -15,6 +15,11 @@
 
         name: "sanchez",
         password: "sanchez123"
+
+
+## Registro de nuevo usuario.
+
+-Ve a la pagina de registro y crea un nuevo usuario (Solo admite un usuario, si desea crear otro diferente debe borrar la localStorage o su historial).
 
 ## Herramientas usadas
 
