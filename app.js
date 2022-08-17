@@ -41,13 +41,14 @@ button.addEventListener("click", validateForm);
 function validateForm(){
     
 
-
-    for(let user of users){
+    const userSolicited = users.filter((user => user.name == userForm.value))
+    
+    for(let user of userSolicited){
 
         console.log(user.name);
         console.log(user.password);
 
-        if (userForm.value === user.name || passwordForm.value === user.password) {
+        if (userForm.value === user.name && passwordForm.value === user.password) {
             form.innerHTML = `
                 <img src="./assets/nike.png" width="50px" height="50px" alt="nike">
                 <h3>Ha iniciado sesion</h3>
