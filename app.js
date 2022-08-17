@@ -50,16 +50,17 @@ function validateForm(){
         if (userForm.value === user.name || passwordForm.value === user.password) {
             form.innerHTML = `
                 <img src="./assets/nike.png" width="50px" height="50px" alt="nike">
-                <h3>Ha iniciado sesion<h3/>
+                <h3>Ha iniciado sesion</h3>
+                <img class="pictureProfile" src="./assets/picture.jpg" alt="pictureProfile">
                 <div class="userWelcome">
-                    <h2>Bienvenido<h2/>
-                    <h3> ${userForm.value.toUpperCase()}<h3/>    
-                <div/>
-                <a href="https://www.nike.com/ar/">Ir a la web<a/>
+                    <h2>Bienvenido</h2>
+                    <h3> ${userForm.value.toUpperCase()}</h3>    
+                </div>
+                <a href="https://www.nike.com/ar/">Ir a la web</a>
             `
         }else{
             error.innerHTML =`
-                <h4>Usuario o contraseña incorrectos<h4/> 
+                <h4>Usuario o contraseña incorrectos</h4> 
             `
         }
 
