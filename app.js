@@ -1,22 +1,3 @@
-//Crear nuevo usuario
-
-class User{
-
-    constructor(name, password){
-        this.name = name;
-        this.password = password;
-    }
-
-}
-
-
-
-//Funcion crear user
-
-function newUser(){
-
-}
-
 
 //Array de usuarios
 var users = [
