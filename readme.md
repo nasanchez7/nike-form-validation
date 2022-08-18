@@ -19,7 +19,7 @@
 
 ## Registro de nuevo usuario.
 
-- Ve a la pagina de registro y crea un nuevo usuario (Solo admite un usuario, si desea crear otro diferente debe borrar la localStorage o su historial).
+- Ve a la pagina de registro y crea un nuevo usuario (Solo admite un usuario, si desea crear otro diferente puede hacerlo pero se reemplazara por el que creo anteriormente).
 
 ## Herramientas usadas
 
